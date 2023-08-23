@@ -39,42 +39,42 @@ const Navbar = () => {
                 <div className="wrapper-desk">
                     <ul>
                         <div>
-                            <Link to="/" style={linkStyle}>
+                            <a href="#" style={linkStyle}>
                                 <li>
                                     <FaHome style={navIcons} /> <p>Home</p>
                                 </li>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to="/about" style={linkStyle}>
+                            <a href="#about" style={linkStyle}>
                                 <li>
                                     <ImUserTie style={navIcons} /> <p>About</p>
                                 </li>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to="/services" style={linkStyle}>
+                            <a href="#services" style={linkStyle}>
                                 <li>
                                     <BsBriefcaseFill style={navIcons} />{" "}
                                     <p>Services</p>
                                 </li>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to="/contact" style={linkStyle}>
+                            <a href="#contact" style={linkStyle}>
                                 <li>
                                     <BiSolidMessageAltDetail style={navIcons} />{" "}
                                     <p>Contact</p>
                                 </li>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to="/portfolio" style={linkStyle}>
+                            <a href="#portfolio" style={linkStyle}>
                                 <li>
                                     <FaFileZipper style={navIcons} />{" "}
                                     <p>Portfolio</p>
                                 </li>
-                            </Link>
+                            </a>
                         </div>
                     </ul>
                 </div>
