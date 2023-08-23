@@ -98,7 +98,7 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li title="Portfolio">
-                            <a href="/projects" style={linkStyleMobile}>
+                            <a href="#projects" style={linkStyleMobile}>
                                 <FaFileZipper style={navIconsMobile} />
                             </a>
                         </li>
