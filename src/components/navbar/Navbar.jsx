@@ -83,31 +83,31 @@ const Navbar = () => {
                 <div className="wrapper-mobile">
                     <ul>
                         <li title="Home">
-                            <Link to="/" style={linkStyleMobile}>
+                            <a href="#" style={linkStyleMobile}>
                                 <FaHome style={navIconsMobile} />
-                            </Link>
+                            </a>
                         </li>
                         <li title="About">
-                            <Link to="/about" style={linkStyleMobile}>
+                            <a href="#about" style={linkStyleMobile}>
                                 <ImUserTie style={navIconsMobile} />
-                            </Link>
+                            </a>
                         </li>
-                        <li title="Services">
-                            <Link to="/services" style={linkStyleMobile}>
+                        <li title="Experience">
+                            <a href="#experience" style={linkStyleMobile}>
                                 <BsBriefcaseFill style={navIconsMobile} />
-                            </Link>
+                            </a>
+                        </li>
+                        <li title="Portfolio">
+                            <a href="/projects" style={linkStyleMobile}>
+                                <FaFileZipper style={navIconsMobile} />
+                            </a>
                         </li>
                         <li title="Contact">
-                            <Link to="/contact" style={linkStyleMobile}>
+                            <a href="#contact" style={linkStyleMobile}>
                                 <BiSolidMessageAltDetail
                                     style={navIconsMobile}
                                 />
-                            </Link>
-                        </li>
-                        <li title="Portfolio">
-                            <Link to="/portfolio" style={linkStyleMobile}>
-                                <FaFileZipper style={navIconsMobile} />
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
