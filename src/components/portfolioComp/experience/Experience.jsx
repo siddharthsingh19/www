@@ -66,7 +66,7 @@ const Experience = () => {
                         <img src={ts} alt="" className="devlogo" />
                         <div>
                             <h4>Typescript</h4>
-                            <small className="text-light">Nay</small>
+                            <small className="text-light">Basic</small>
                         </div>
                     </article>
                 </div>
@@ -75,7 +75,7 @@ const Experience = () => {
                         <img src={sass} alt="" className="devlogo" />
                         <div>
                             <h4>Sass</h4>
-                            <small className="text-light">Nay</small>
+                            <small className="text-light">Basic</small>
                         </div>
                     </article>
                 </div>
@@ -84,7 +84,7 @@ const Experience = () => {
                         <img src={git} alt="" className="devlogo" />
                         <div>
                             <h4>Git</h4>
-                            <small className="text-light">Nay</small>
+                            <small className="text-light">Intermediate</small>
                         </div>
                     </article>
                 </div>
