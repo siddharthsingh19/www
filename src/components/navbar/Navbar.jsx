@@ -53,10 +53,18 @@ const Navbar = () => {
                             </a>
                         </div>
                         <div>
-                            <a href="#services" style={linkStyle}>
+                            <a href="#experience" style={linkStyle}>
                                 <li>
                                     <BsBriefcaseFill style={navIcons} />{" "}
-                                    <p>Services</p>
+                                    <p>Experience</p>
+                                </li>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#projects" style={linkStyle}>
+                                <li>
+                                    <FaFileZipper style={navIcons} />{" "}
+                                    <p>Portfolio</p>
                                 </li>
                             </a>
                         </div>
@@ -65,14 +73,6 @@ const Navbar = () => {
                                 <li>
                                     <BiSolidMessageAltDetail style={navIcons} />{" "}
                                     <p>Contact</p>
-                                </li>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#portfolio" style={linkStyle}>
-                                <li>
-                                    <FaFileZipper style={navIcons} />{" "}
-                                    <p>Portfolio</p>
                                 </li>
                             </a>
                         </div>
