@@ -1,7 +1,9 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-
+import {FaHtml5,FaCss3Alt, FaReact } from 'react-icons/fa'
+import {BiLogoJavascript } from 'react-icons/bi'
+import {SiTailwindcss, SiTypescript } from 'react-icons/si'
 const Experience = () => {
     return (
         <section id="experience">
@@ -10,7 +12,7 @@ const Experience = () => {
                 <div className="experience__container">
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <FaHtml5 className="experience__details-icon" />
                             <div>
                                 <h4>HTML</h4>
                                 <small className="text-light">
@@ -21,7 +23,7 @@ const Experience = () => {
                     </div>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <FaCss3Alt className="experience__details-icon" />
                             <div>
                                 <h4>CSS</h4>
                                 <small className="text-light">
@@ -32,7 +34,7 @@ const Experience = () => {
                     </div>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <BiLogoJavascript className="experience__details-icon" />
                             <div>
                                 <h4>Javascript</h4>
                                 <small className="text-light">
@@ -43,7 +45,7 @@ const Experience = () => {
                     </div>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <FaReact className="experience__details-icon" />
                             <div>
                                 <h4>React</h4>
                                 <small className="text-light">
@@ -54,7 +56,7 @@ const Experience = () => {
                     </div>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <SiTailwindcss className="experience__details-icon" />
                             <div>
                                 <h4>TailwindCSS</h4>
                                 <small className="text-light">
@@ -65,7 +67,7 @@ const Experience = () => {
                     </div>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <SiTypescript className="experience__details-icon" />
                             <div>
                                 <h4>Typescript</h4>
                                 <small className="text-light">Nay</small>
