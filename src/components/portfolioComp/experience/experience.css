@@ -42,6 +42,12 @@
     color: var(--color-primary);
 }
 
+.devlogo {
+    margin-top: 5px;
+    width: 44px;
+    height: 44px;
+}
+
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr 1fr;
@@ -55,6 +61,13 @@
     .experience__content {
         padding: 1rem;
     }
+
+    .devlogo {
+        margin-top: 5px;
+        width: 44px;
+        height: 44px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -69,4 +82,11 @@
         padding: 1.5rem 1rem;
         border-radius: 1rem;
     }
+
+    .devlogo {
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
 }
