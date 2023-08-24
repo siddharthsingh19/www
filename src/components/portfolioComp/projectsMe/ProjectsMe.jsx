@@ -1,7 +1,7 @@
 import React from "react";
 import "./projectsMe.css";
 import projects from "../../../projects";
-
+import {BsGithub} from 'react-icons/bs'
 const ProjectsMe = () => {
     return (
         <section id="projects">
@@ -21,7 +21,7 @@ const ProjectsMe = () => {
                                     className="btn"
                                     target="_blank"
                                 >
-                                    Github
+                                    <BsGithub className="gitlogo" /> Github
                                 </a>
                                 <a
                                     href={demo}

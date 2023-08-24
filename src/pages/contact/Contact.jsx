@@ -61,12 +61,12 @@ const Contact = () => {
                     <article className="contact__option">
                         <BsWhatsapp className="contact__option-icon" />
                         <h4>WhatsApp</h4>
-                        <h5>siddharth.singh19@outlook.com</h5>
+                        <h5>+91-7275 7475 45</h5>
                         <a
                             href="https://api.whatsapp.com/send?phone=7275747545"
                             target="_blank"
                         >
-                            Send a message
+                            Send a Message
                         </a>
                     </article>
                 </div>
