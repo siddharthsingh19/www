@@ -18,32 +18,8 @@ const AboutMe = () => {
                 </div>
 
                 <div className="about__content">
-                    <div className="about__cards">
-                        <article className="about__card">
-                            <FaAward className="about__icon" />
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
-                        </article>
-
-                        <article className="about__card">
-                            <FiUsers className="about__icon" />
-                            <h5>Clients</h5>
-                            <small>30+ Clients</small>
-                        </article>
-
-                        <article className="about__card">
-                            <VscFolderLibrary className="about__icon" />
-                            <h5>Projects</h5>
-                            <small>30+ </small>
-                        </article>
-                    </div>
-
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Officia impedit voluptatibus maxime, ad sed
-                        repellat delectus incidunt nihil cupiditate natus
-                        exercitationem, consequatur dolore corporis quis rem
-                        alias eum? Id, voluptas.
+                        A dedicated Frontend Developer based in Gurugram. As a Junior Frontend Developer, I possess an impressive arsenal of skills in HTML, CSS, Javascript, React, Tailwind and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications
                     </p>
 
                     <a href="#contact" className="btn btn-primary">

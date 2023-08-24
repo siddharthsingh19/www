@@ -8,14 +8,15 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 3rem 4rem;
+    padding: 2rem 3rem;
     border-radius: 1.5rem;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     transition: var(--transition);
 }
 
 .experience__container > div:hover {
-    background: transparent;
+    transform:skewY(-2deg);
+    background: linear-gradient(45deg, #1D2043, #285880);
     border-color: var(--color-primary-variant);
     cursor: default;
 }

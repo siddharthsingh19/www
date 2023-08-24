@@ -10,7 +10,8 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    /* --color-bg-variant: #2c2c6c; */
+    --color-bg-variant: linear-gradient(45deg,  #285880, #1D2043, #285880);
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -32,7 +33,7 @@ html {
 }
 
 body {
-    background-color: #101521;
+    background-color: #141824;
     color: #fff;
     line-height: 1.7;
 }
@@ -97,6 +98,7 @@ a:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+    transform: skewY(-2deg);
 }
 
 .btn-primary {
