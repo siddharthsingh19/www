@@ -18,6 +18,8 @@
     border-color: var(--color-primary-variant);
     background: linear-gradient(45deg, #1D2043, #285880);
     transform: skewY(2deg);
+    transition: var(--transition);
+
 }
 
 .portfolio__item-image {

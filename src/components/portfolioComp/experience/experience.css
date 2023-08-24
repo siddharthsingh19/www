@@ -15,6 +15,7 @@
 }
 
 .experience__container > div:hover {
+    transition: var(--transition);
     transform:skewY(-2deg);
     background: linear-gradient(45deg, #1D2043, #285880);
     border-color: var(--color-primary-variant);
