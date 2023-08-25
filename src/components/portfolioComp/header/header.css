@@ -93,7 +93,7 @@ header {
         display: none;
     }
     .header__container > .hola {
-        padding-top: 5rem;
+        padding-top: 2rem;
         font-size: 1.2rem;
     }
     .header__container > h1 {
