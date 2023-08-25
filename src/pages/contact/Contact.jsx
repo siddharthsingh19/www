@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { LiaTelegram } from "react-icons/lia";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -48,11 +48,11 @@ const Contact = () => {
                         </a>
                     </article>
                     <article className="contact__option">
-                        <RiMessengerLine className="contact__option-icon" />
-                        <h4>Messenger</h4>
-                        <h5>siddharth.singh19@outlook.com</h5>
+                        <LiaTelegram className="contact__option-icon" />
+                        <h4>Telegram</h4>
+                        <h5>+91 - 7275 7475 45</h5>
                         <a
-                            href="https://m.me/siddharth.singh19"
+                            href="https://t.me/+917275747545"
                             target="_blank"
                         >
                             Send a Message
