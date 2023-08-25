@@ -11,8 +11,11 @@
 :root {
     --color-bg: #1f1f38;
     /* --color-bg-variant: #2c2c6c; */
-    --color-bg-variant: linear-gradient(45deg,  #285880, #1D2043, #285880);
-    --color-primary: #4db5ff;
+    /* --color-bg-variant: linear-gradient(45deg,  #285880, #1D2043, #285880); */
+    --color-bg-variant: linear-gradient(45deg,  #1d416b, #68328b);
+    /* --color-primary: #4db5ff; */
+    --color-primary: rgb(110, 138, 230);
+    /* --color-primary: linear-gradient(90deg, #4e82bd, #bd70f0); */
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
