@@ -2,6 +2,7 @@ import checklist from "./assets/checklist.png";
 import bookkeeper from "./assets/bookkeeper.png";
 import redbox from "./assets/redbox.png";
 import snapkart from "./assets/snapkart.png";
+import supersheet from "./assets/supersheet.png";
 const projects = [
     {
         id: 1,
@@ -12,7 +13,7 @@ const projects = [
     },
     {
         id: 2,
-        image: snapkart,
+        image: supersheet,
         title: "SuperSheet",
         github: "https://github.com/siddharthsingh19/supersheet.git",
         demo: "https://supersheet.vercel.app/",
