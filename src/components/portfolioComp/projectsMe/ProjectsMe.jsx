@@ -5,7 +5,7 @@ import {BsGithub} from 'react-icons/bs'
 const ProjectsMe = () => {
     return (
         <section id="projects">
-            <h5>My Recent Work</h5>
+            <h5>Our Recent Works</h5>
             <h2>Portfolio</h2>
             <div className=" portfolio__container">
                 {projects.map(({ id, image, title, github, demo }) => {

@@ -56,7 +56,7 @@ const Navbar = () => {
                             <a href="#experience" style={linkStyle}>
                                 <li>
                                     <BsBriefcaseFill style={navIcons} />{" "}
-                                    <p>Experience</p>
+                                    <p>Services</p>
                                 </li>
                             </a>
                         </div>

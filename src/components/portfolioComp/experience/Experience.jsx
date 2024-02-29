@@ -13,15 +13,15 @@ const Experience = () => {
 
     return (
         <section id="experience">
-            <h5>What Skills I Have</h5>
-            <h2>My Experience</h2>
+            <h5>What We Offer</h5>
+            <h2>Our Services</h2>
             <div className="experience__container">
                 <div className="experience__content">
                     <article className="experience__details">
                         <img src={html} alt="" className="devlogo" />
                         <div>
-                            <h4>HTML</h4>
-                            <small className="text-light">Experienced</small>
+                            <h4>Custom Web Development</h4>
+                            {/* <small className="text-light">Experienced</small> */}
                         </div>
                     </article>
                 </div>
@@ -29,8 +29,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={css} alt="" className="devlogo" />
                         <div>
-                            <h4>CSS</h4>
-                            <small className="text-light">Intermediate</small>
+                            <h4>Responsive Web Design</h4>
+                            {/* <small className="text-light">Intermediate</small> */}
                         </div>
                     </article>
                 </div>
@@ -38,8 +38,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={js} alt="" className="devlogo" />
                         <div>
-                            <h4>Javascript</h4>
-                            <small className="text-light">Experienced</small>
+                            <h4>E-commerce Solutions</h4>
+                            {/* <small className="text-light">Experienced</small> */}
                         </div>
                     </article>
                 </div>
@@ -47,8 +47,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={reactlogo} alt="" className="devlogo" />
                         <div>
-                            <h4>React</h4>
-                            <small className="text-light">Experienced</small>
+                            <h4>Content Management Systems (CMS)</h4>
+                            {/* <small className="text-light">Experienced</small> */}
                         </div>
                     </article>
                 </div>
@@ -56,8 +56,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <SiTailwindcss color="#06B6D4" className="devlogo" />
                         <div>
-                            <h4>TailwindCSS</h4>
-                            <small className="text-light">Intermediate</small>
+                            <h4>Mobile App Development</h4>
+                            {/* <small className="text-light">Intermediate</small> */}
                         </div>
                     </article>
                 </div>
@@ -65,8 +65,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={ts} alt="" className="devlogo" />
                         <div>
-                            <h4>Typescript</h4>
-                            <small className="text-light">Basic</small>
+                            <h4>SEO Optimization</h4>
+                            {/* <small className="text-light">Basic</small> */}
                         </div>
                     </article>
                 </div>
@@ -74,8 +74,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={sass} alt="" className="devlogo" />
                         <div>
-                            <h4>Sass</h4>
-                            <small className="text-light">Basic</small>
+                            <h4>API Integration</h4>
+                            {/* <small className="text-light">Basic</small> */}
                         </div>
                     </article>
                 </div>
@@ -83,8 +83,17 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={git} alt="" className="devlogo" />
                         <div>
-                            <h4>Git</h4>
-                            <small className="text-light">Intermediate</small>
+                            <h4>ERP Implementation</h4>
+                            {/* <small className="text-light">Intermediate</small> */}
+                        </div>
+                    </article>
+                </div>
+                <div className="experience__content">
+                    <article className="experience__details">
+                        <img src={git} alt="" className="devlogo" />
+                        <div>
+                            <h4>Code Refactoring</h4>
+                            {/* <small className="text-light">Intermediate</small> */}
                         </div>
                     </article>
                 </div>

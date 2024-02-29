@@ -7,13 +7,13 @@ const Header = () => {
     return (
         <header>
             <div className="container header__container">
-                <h5 className="hola">Hello I'm</h5>
-                <h1>Siddharth Singh</h1>
-                <h5 className="text-light">Web Developer</h5>
+                <h5 className="hola">Welcome To</h5>
+                <h1>WorthWhileWeb</h1>
+                <h5 className="text-light">Web Development Agency</h5>
                 <h3>
                     Turning !deas into real life
                     <br />
-                    <span className="gradient">products</span> is my calling.
+                    <span className="gradient">products</span> is our calling.
                 </h3>
                 <CTA />
                 <HeaderSocials />

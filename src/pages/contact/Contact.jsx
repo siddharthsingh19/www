@@ -33,15 +33,15 @@ const Contact = () => {
     return (
         <section id="contact">
             <h5>Get In Touch</h5>
-            <h2>Contact Me</h2>
+            <h2>Contact Us</h2>
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
                         <MdOutlineEmail className="contact__option-icon" />
                         <h4>Email</h4>
-                        <h5>siddharth.singh19@outlook.com</h5>
+                        <h5>worthwhileweb.in@gmail.com</h5>
                         <a
-                            href="mailto:siddharth.singh19@outlook.com"
+                            href="mailto:worthwhileweb.in@gmail.com"
                             target="_blank"
                         >
                             Send an Email
