@@ -7,6 +7,7 @@ import tw from "../../../assets/tw.png";
 import ts from "../../../assets/ts.svg";
 import sass from "../../../assets/sass.png";
 import git from "../../../assets/git.png";
+import vercel from '/src/vercel.png'
 import { SiTailwindcss } from "react-icons/si";
 import "./experience.css";
 const Experience = () => {
@@ -90,7 +91,7 @@ const Experience = () => {
                 </div>
                 <div className="experience__content">
                     <article className="experience__details">
-                        <img src={git} alt="" className="devlogo" />
+                        <img src={vercel} alt="" className="devlogo" />
                         <div>
                             <h4>Code Refactoring</h4>
                             {/* <small className="text-light">Intermediate</small> */}
