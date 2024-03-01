@@ -1,0 +1,31 @@
+.survey {
+    padding: 40px 150px;
+}
+.survey > h3 {
+    margin: 30px 10px;
+}
+
+.survey > ul > li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid orange;
+  margin-bottom: 10px;
+}
+
+.survey > ul > li > li {
+  padding-left: 40px;
+}
+
+.survey > ul > li > li {
+  padding-left: 40px;
+}
+
+.survey > ul > li > li > li {
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .survey {
+    padding: 10px;
+  }
+}
