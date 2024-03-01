@@ -26,13 +26,13 @@ const Survey = () => {
           help your business?
         </li>
         <li>How much have you spent on your website?</li>
+        <li>What do you think should be a nominal cost for a website?</li>
         <li>How much do you spent on your google ads?</li>
         <li>Do you know about SEO?</li>
         <li>
           What apps do you use? Apps that you need like appointment booking and
           ol.
         </li>
-        <li>What do you think should be a nominal cost for a website?</li>
         <li>
           Do you use any app or software that helps in collaboration with other
           dentists or your patients?
@@ -47,7 +47,7 @@ const Survey = () => {
           <li>● collaborate with other dentists</li>
           <li>● appointment</li>
         </li>
-        <li>Would you pay 1000rs. yearly for subscribing to such an app</li>
+        <li>Would you pay ₹1000 yearly for subscribing to such an app</li>
       </ul>
     </div>
   );
