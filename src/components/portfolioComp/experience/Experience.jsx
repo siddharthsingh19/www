@@ -95,7 +95,7 @@ const Experience = () => {
                         <img src={vercel} alt="" className="devlogo" />
                         <div>
                             <h4>Data Analytics and Business Intelligence</h4>
-                            <small className="text-light">10. Helping businesses leverage data to gain insights, make informed decisions, and drive business growth.
+                            <small className="text-light">Helping businesses leverage data to gain insights, make informed decisions, and drive business growth.
 </small>
                         </div>
                     </article>
