@@ -21,8 +21,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={html} alt="" className="devlogo" />
                         <div>
-                            <h4>Custom Web Development</h4>
-                            {/* <small className="text-light">Experienced</small> */}
+                            <h4>Software Development</h4>
+                            <small className="text-light">Designing, developing, and implementing custom software solutions tailored to the client's specific needs and requirements.</small>
                         </div>
                     </article>
                 </div>
@@ -30,8 +30,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={css} alt="" className="devlogo" />
                         <div>
-                            <h4>Responsive Web Design</h4>
-                            {/* <small className="text-light">Intermediate</small> */}
+                            <h4>Tehnology Consulting</h4>
+                            <small className="text-light">Providing expert advice on technology strategy, architecture, and implementation to help clients make informed decisions about their IT investments.</small>
                         </div>
                     </article>
                 </div>
@@ -39,8 +39,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={js} alt="" className="devlogo" />
                         <div>
-                            <h4>E-commerce Solutions</h4>
-                            {/* <small className="text-light">Experienced</small> */}
+                            <h4>Digital Transformation</h4>
+                            <small className="text-light">Helping businesses modernize their IT infrastructure and processes to improve efficiency, reduce costs, and enhance customer experience.</small>
                         </div>
                     </article>
                 </div>
@@ -49,7 +49,7 @@ const Experience = () => {
                         <img src={reactlogo} alt="" className="devlogo" />
                         <div>
                             <h4>Content Management Systems (CMS)</h4>
-                            {/* <small className="text-light">Experienced</small> */}
+                            <small className="text-light">Designing, Developing and Implementing CMS for Businesses.</small>
                         </div>
                     </article>
                 </div>
@@ -58,7 +58,7 @@ const Experience = () => {
                         <SiTailwindcss color="#06B6D4" className="devlogo" />
                         <div>
                             <h4>Mobile App Development</h4>
-                            {/* <small className="text-light">Intermediate</small> */}
+                            <small className="text-light">Designing and developing mobile applications for iOS and Android platforms to help businesses reach their customers on the go.</small>
                         </div>
                     </article>
                 </div>
@@ -66,8 +66,9 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={ts} alt="" className="devlogo" />
                         <div>
-                            <h4>SEO Optimization</h4>
-                            {/* <small className="text-light">Basic</small> */}
+                            <h4>Cloud Computing</h4>
+                            <small className="text-light">Advising on cloud migration strategies and helping clients leverage cloud services to scale their operations and improve agility.
+</small>
                         </div>
                     </article>
                 </div>
@@ -75,8 +76,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={sass} alt="" className="devlogo" />
                         <div>
-                            <h4>API Integration</h4>
-                            {/* <small className="text-light">Basic</small> */}
+                            <h4>API Development and Integration</h4>
+                            <small className="text-light">Developing and maintaing API's for all businesses for easy connectivity of softwares.</small>
                         </div>
                     </article>
                 </div>
@@ -84,8 +85,8 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={git} alt="" className="devlogo" />
                         <div>
-                            <h4>ERP Implementation</h4>
-                            {/* <small className="text-light">Intermediate</small> */}
+                            <h4>Quality Assurance and Testing</h4>
+                            <small className="text-light">Ensuring the quality and reliability of software through comprehensive testing and quality assurance processes.</small>
                         </div>
                     </article>
                 </div>
@@ -93,8 +94,9 @@ const Experience = () => {
                     <article className="experience__details">
                         <img src={vercel} alt="" className="devlogo" />
                         <div>
-                            <h4>Code Refactoring</h4>
-                            {/* <small className="text-light">Intermediate</small> */}
+                            <h4>Data Analytics and Business Intelligence</h4>
+                            <small className="text-light">10. Helping businesses leverage data to gain insights, make informed decisions, and drive business growth.
+</small>
                         </div>
                     </article>
                 </div>
